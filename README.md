@@ -20,6 +20,25 @@ Oryginalny projekt `steipete/codexbar` jest aplikacją macOS (SwiftUI + menu bar
 - .NET 8 SDK (do builda)
 - (Opcjonalnie) `codexbar` w PATH
 
+## Skąd wziąć `dotnet` (SDK)?
+Najprościej zainstalować .NET SDK 8 na Windows jedną z metod:
+
+### Opcja 1: Winget (rekomendowane)
+```powershell
+winget install Microsoft.DotNet.SDK.8
+```
+
+### Opcja 2: Oficjalny instalator Microsoft
+1. Wejdź na: https://dotnet.microsoft.com/download/dotnet/8.0
+2. Pobierz **.NET SDK** dla Windows x64.
+3. Zainstaluj i otwórz nowy terminal.
+
+### Sprawdzenie instalacji
+```powershell
+dotnet --info
+```
+Jeżeli komenda działa i pokazuje wersję SDK, możesz uruchamiać projekt.
+
 ## Szybki start
 ```powershell
 cd src\WinCodexBar
